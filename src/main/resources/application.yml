@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ems
+    #driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password@123
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: 'update'
+    generate-ddl: true
+    show-sql: true
+
+  application:
+    name: EMPLOYEE-SERVICE
+
+eureka:
+  instance:
+    client:
+      register-with-eureka: true
+      fetch-registry: true
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+    hostname: localhost
+
+logging:
+  file:
+    name: emp-app-log.log
+    path: /var/log
+  level:
+    org:
+      springframework:
+        web: DEBUG
+      hibernate: ERROR

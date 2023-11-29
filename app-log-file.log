@@ -1,0 +1,49 @@
+2023-11-17T12:23:20.559+05:30  INFO 14580 --- [restartedMain] com.emp.poc.EmployeeServiceApplication   : Starting EmployeeServiceApplication using Java 17.0.8 with PID 14580 (C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V2\employee-service\target\classes started by Optimum in C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V2\employee-service)
+2023-11-17T12:23:20.579+05:30  INFO 14580 --- [restartedMain] com.emp.poc.EmployeeServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-17T12:23:20.655+05:30  INFO 14580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-17T12:23:20.656+05:30  INFO 14580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-17T12:23:21.818+05:30  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17T12:23:21.929+05:30  INFO 14580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2023-11-17T12:23:22.985+05:30  INFO 14580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-17T12:23:23.001+05:30  INFO 14580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-17T12:23:23.001+05:30  INFO 14580 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-17T12:23:23.096+05:30  INFO 14580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-17T12:23:23.096+05:30  INFO 14580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2439 ms
+2023-11-17T12:23:23.144+05:30  INFO 14580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-17T12:23:23.413+05:30  INFO 14580 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2023-11-17T12:23:23.428+05:30  INFO 14580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-17T12:23:23.444+05:30  INFO 14580 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-11-17T12:23:23.491+05:30 DEBUG 14580 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-11-17T12:23:24.241+05:30  INFO 14580 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-17T12:23:25.478+05:30  INFO 14580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17T12:23:26.740+05:30  WARN 14580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17T12:23:26.952+05:30 DEBUG 14580 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2023-11-17T12:23:27.096+05:30 DEBUG 14580 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17T12:23:27.195+05:30 DEBUG 14580 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17T12:23:27.731+05:30  INFO 14580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-17T12:23:27.830+05:30  INFO 14580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-17T12:23:27.863+05:30  INFO 14580 --- [restartedMain] com.emp.poc.EmployeeServiceApplication   : Started EmployeeServiceApplication in 7.982 seconds (process running for 10.095)
+2023-11-17T12:23:28.374+05:30  INFO 14580 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-17T12:23:28.375+05:30  INFO 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-17T12:23:28.375+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-11-17T12:23:28.375+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-11-17T12:23:28.375+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-11-17T12:23:28.375+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@38546095
+2023-11-17T12:23:28.375+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@8638cb6
+2023-11-17T12:23:28.375+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-17T12:23:28.375+05:30  INFO 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-11-17T12:23:28.393+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-11-17T12:23:28.419+05:30  WARN 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2023-11-17T12:23:28.419+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-11-17T12:23:28.435+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-11-17T12:23:28.465+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17T12:23:28.541+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/vnd.spring-boot.actuator.v2+json]
+2023-11-17T12:23:28.550+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Nov 17 12:23:28 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-17T12:23:28.669+05:30 DEBUG 14580 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-11-17T12:23:34.511+05:30 DEBUG 14580 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/v1/employees/", parameters={}
+2023-11-17T12:23:34.511+05:30 DEBUG 14580 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.emp.poc.controller.EmployeeController#getAllEmployeeView(Model)
+2023-11-17T12:23:35.743+05:30 DEBUG 14580 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-17T12:46:21.038+05:30  INFO 14580 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17T12:46:21.424+05:30  WARN 14580 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-11-17T12:46:21.424+05:30  INFO 14580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-17T12:46:21.580+05:30  INFO 14580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

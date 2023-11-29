@@ -1,0 +1,46 @@
+2023-11-28T10:45:01.389+05:30  INFO 7864 --- [restartedMain] com.emp.poc.EmployeeServiceApplication   : Starting EmployeeServiceApplication using Java 17.0.8 with PID 7864 (C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V3\employee-service\target\classes started by Optimum in C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V3\employee-service)
+2023-11-28T10:45:01.396+05:30  INFO 7864 --- [restartedMain] com.emp.poc.EmployeeServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-11-28T10:45:01.454+05:30  INFO 7864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-28T10:45:01.455+05:30  INFO 7864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-28T10:45:02.157+05:30  INFO 7864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-28T10:45:02.232+05:30  INFO 7864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2023-11-28T10:45:02.918+05:30  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-11-28T10:45:02.929+05:30  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-28T10:45:02.929+05:30  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-28T10:45:02.988+05:30  INFO 7864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-28T10:45:02.989+05:30  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1534 ms
+2023-11-28T10:45:03.028+05:30 DEBUG 7864 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-11-28T10:45:03.465+05:30  INFO 7864 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-28T10:45:03.489+05:30  INFO 7864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-28T10:45:03.838+05:30  INFO 7864 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6beea072
+2023-11-28T10:45:03.839+05:30  INFO 7864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-28T10:45:04.727+05:30  INFO 7864 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-28T10:45:05.023+05:30  WARN 7864 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-28T10:45:05.095+05:30 DEBUG 7864 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2023-11-28T10:45:05.142+05:30 DEBUG 7864 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-28T10:45:05.172+05:30 DEBUG 7864 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-28T10:45:05.367+05:30  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-28T10:45:05.399+05:30  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-11-28T10:45:05.409+05:30  INFO 7864 --- [restartedMain] com.emp.poc.EmployeeServiceApplication   : Started EmployeeServiceApplication in 4.48 seconds (process running for 5.216)
+2023-11-28T10:45:40.759+05:30  INFO 7864 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-28T10:45:40.759+05:30  INFO 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-28T10:45:40.759+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-11-28T10:45:40.759+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-11-28T10:45:40.759+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-11-28T10:45:40.760+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6bd474fe
+2023-11-28T10:45:40.760+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5b69127a
+2023-11-28T10:45:40.762+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-28T10:45:40.762+05:30  INFO 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-11-28T10:45:40.784+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/api/employees-list/1/5", parameters={}
+2023-11-28T10:45:40.798+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.emp.poc.controller.EmployeeController#getAllEmployees(int, int)
+2023-11-28T10:45:41.061+05:30  INFO 7864 --- [http-nio-8081-exec-1] c.emp.poc.controller.EmployeeController  : In EmployeeService RestController - to fetch Employee Details 
+2023-11-28T10:45:41.061+05:30  INFO 7864 --- [http-nio-8081-exec-1] c.e.p.service.impl.EmployeeServiceImpl   : In EmployeeServiceImpl - to fetch Employee Details from repository
+2023-11-28T10:45:41.111+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/vnd.spring-boot.actuator.v2+json]
+2023-11-28T10:45:41.111+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.emp.poc.entity.Employee@75de9ba4, com.emp.poc.entity.Employee@50510f70, com.emp.poc.entity.Empl (truncated)...]
+2023-11-28T10:45:41.159+05:30 DEBUG 7864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-28T11:56:11.284+05:30  WARN 7864 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m36s729ms992µs500ns).
+2023-11-28T14:10:06.379+05:30  WARN 7864 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m54s53ms336µs700ns).
+2023-11-28T18:20:16.855+05:30  WARN 7864 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m37s271ms386µs400ns).
+2023-11-28T19:09:39.622+05:30  INFO 7864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-28T19:09:39.646+05:30  INFO 7864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-28T19:09:39.653+05:30  INFO 7864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
